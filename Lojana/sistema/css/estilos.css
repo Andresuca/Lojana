@@ -1,0 +1,113 @@
+.lojana-color{
+            color: #AC153F;
+        }
+
+        .lojana-title {
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .mh1 div {
+            height: 13vh;
+            /* 13% of viewport height*/
+        }
+
+        .mh2 div {
+            height: 8.3vh;
+        }
+
+        .lojana-subtitle {
+            font-size: 22px;
+            color: #666666;
+        }
+
+        .lojana-text {
+            color: #666666;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        input[type=text]{
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #AC153F;
+            padding: 6px 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=text]:focus{
+            border: 2px solid #AC153F;
+        }
+
+        .lojana-button{
+            background-color:#AC153F;
+            color:#ffffff;
+        }
+
+
+
+        .rosita{
+    		background-color: #AC153F;
+            opacity: 0.9;
+    	}
+    	.fondo{
+
+    		background-repeat: no-repeat;
+    		/*background-size:1000px 500px;*/
+    		background-size:70%;
+    	}
+    	.letras{
+    		color: rgba(255,255,255);
+    	}
+    	.bord:after{
+    		 content : "";
+      position: absolute;
+      right    : 0;
+      z-index: 100;
+      top  : 0;
+      width  : 3px;
+      height   : 50%;  /* or 100px */
+      background: #555;
+    	}
+    	@font-face {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: normal;
+        src: local("?"), url("LOJANA/metropolis/metropolis-medium-webfont.woff") format("woff"), url("LOJANA/metropolis/metropolis-medium-webfont.ttf") format("truetype");
+    }
+
+#overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#modal {
+  position:absolute;
+  background:url(tint20.png) 0 0 repeat;
+  background:rgba(0,0,0,0.2);
+  border-radius:14px;
+  padding:8px;
+}
+
+#content {
+  border-radius:8px;
+  background:#fff;
+  padding:20px;
+}
+
+#close {
+  position:absolute;
+  background:url(../../recursos/img/close.png) 0 0 no-repeat;
+  width:24px;
+  height:27px;
+  display:block;
+  text-indent:-9999px;
+  top:-7px;
+  right:-7px;
+}
